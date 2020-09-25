@@ -1,0 +1,65 @@
+body {
+   display: flex;
+   flex-direction: column;
+   width: 50vw;
+   margin: 50px auto;
+   background-color: #383838;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+#survey-form {
+   display: flex;
+   flex-direction: column;
+}
+
+label {
+   margin-top: 15px;
+}
+
+input, textarea, select {
+   margin-top: 5px;
+   padding: 10px;
+   background-color: #585858;
+   border: none;
+   border-radius: 5px;
+   color: white;
+}
+
+input[type="radio"], input[type="checkbox"] {
+   margin-top: 15px;
+}
+
+select option {
+   color: white;
+}
+
+::placeholder {
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+   margin: 0;
+   margin-top: 15px;
+}
+
+textarea {
+   margin-top: 15px;
+}
+
+button {
+   background-color: white;
+   color: #383838;
+   padding: 10px;
+   border: none;
+   border-radius: 5px;
+   margin-top: 10px;
+   font-weight: 800;
+   text-transform: uppercase;
+   cursor: pointer;
+}
+
+button:hover {
+   background-color: rgba(255,255,255,.8);
+}
